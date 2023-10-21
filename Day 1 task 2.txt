@@ -1,0 +1,31 @@
+* Objects And its Internal Representation In Javascript
+
+
+Objects are important data types in java script. Objects are quite different from primitive data types like numbers, String, Boolean, null, undefined, symbol. Primitive data types can hold only one value but objects can hold multiple data types in key value pair formats.
+
+Objects are most complex data types each object may contain the combination of primitive data types as well as referenced data types.
+
+Objects are referenced data types. Variables that are assigned a referenced value is given to the referencer or a pointer to that address. That referencer or pointer points to that location in memory whrere the object is stored.
+ 
+An object does not store the value it works as for every given value a referenced value is given and it points to the address of that memory location.
+
+Objects in Java Script may be defined as an unordered collection of related data of primitive and reference data types in the form of key value pairs. These keys can be variables or methods and are called properties and methods respectively in conteCreating Objects in Java Script
+
+By Using Object Literal
+
+object={property1:value1, property2:value2, property3:value3, ...........propertyN:valueN}
+
+Example
+
+profile = {
+  
+    name    : "DINESHKUMAR",
+    email   : "dineshkutty404@gmail.com",
+    mobile  : "7358725811",
+    age     : "24",
+    
+}
+
+
+
+
